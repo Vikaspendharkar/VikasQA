@@ -7,7 +7,7 @@ import csv
 
 		
 pstapi = requests.post('https://api.omniparcel.com/ratesqueryv1/availablerates',
-headers={"Content-Type" : "application/json", "access_key" : "2CE65CF79145B4F946928266284319CBE2C6A86E4675F7C79F"},
+headers={"Content-Type" : "application/json", "access_key" : ""},
    		json={
       "Origin":{
       "Name":"Omni Test",
