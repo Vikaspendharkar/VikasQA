@@ -6,8 +6,8 @@ import random
 import csv
 
 		
-pstapi = requests.post('https://test.omniparcel.com/ratesqueryv1/availablerates',
-headers={"Content-Type" : "application/json", "access_key" : "64CC20092A075F942111A211912EC060D393980114BD499695"},
+pstapi = requests.post('https://api.omniparcel.com/ratesqueryv1/availablerates',
+headers={"Content-Type" : "application/json", "access_key" : "2CE65CF79145B4F946928266284319CBE2C6A86E4675F7C79F"},
    		json={
       "Origin":{
       "Name":"Omni Test",
