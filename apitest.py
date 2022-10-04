@@ -6,7 +6,7 @@ import random
 import csv
 
 		
-pstapi = requests.post('https://api.omniparcel.com/ratesqueryv1/availablerates',
+pstapi = requests.post('',
 headers={"Content-Type" : "application/json", "access_key" : ""},
    		json={
       "Origin":{
